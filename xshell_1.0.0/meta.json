@@ -3,9 +3,9 @@
   "Author":"Inspiration101",
   "Name":"XShell",
   "Description":"An advanced and extended shell.",
-  "Version":"0.0.1",
+  "Version":"1.0.0",
   "Dependencies":{
     "liko12": ">=0.7.2",
-    "liko12.DiskOS": ">=0.01"
+    "liko12.DiskOS": ">=0.0.1"
   }
 }
