@@ -1,0 +1,12 @@
+[
+  "meta.json",
+  "init.lua",
+  [
+    "Programs",
+    "xshell.lua"
+  ],
+  [
+    "Misc",
+    "xshell.lua"
+  ]
+]
