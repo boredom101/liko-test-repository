@@ -8,9 +8,9 @@ local PKGProgramsPath = path.."Programs/;"
 
 if trigger == "enable" then
   PATH = PATH..PKGProgramsPath
+  print(PATH)
   term.setPATH(PATH)
 elseif trigger == "disable" then
   PATH = PATH:gsub(PKGProgramsPath,"")
-  print(PATH)
   term.setPATH(PATH)
 end
