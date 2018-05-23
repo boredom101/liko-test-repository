@@ -6,12 +6,11 @@ local term = require("terminal")
 local PATH = term.getPATH()
 local PKGProgramsPath = path.."Programs/;"
 
-print(PKGProgramsPath)
-
 if trigger == "enable" then
   PATH = PATH..PKGProgramsPath
   term.setPATH(PATH)
 elseif trigger == "disable" then
   PATH = PATH:gsub(PKGProgramsPath,"")
+  print(PATH)
   term.setPATH(PATH)
 end
