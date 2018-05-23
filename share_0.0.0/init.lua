@@ -6,7 +6,7 @@ local term = require("terminal")
 local PATH = term.getPATH()
 local PKGProgramsPath = path.."Programs/;"
 
-print(PKGProgramsPath)
+print(trigger)
 
 if trigger == "enable" then
   PATH = PATH..PKGProgramsPath
