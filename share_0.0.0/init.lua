@@ -1,4 +1,7 @@
 local path, trigger = (...)
+
+print(...)
+
 local triggerData = {select(3,...)}
 
 local term = require("terminal")
