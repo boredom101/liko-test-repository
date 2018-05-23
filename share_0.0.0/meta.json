@@ -1,0 +1,11 @@
+
+{
+  "Author":"Inspiration101",
+  "Name":"Share",
+  "Description":"A system to upload and share files.",
+  "Version":"0.0.0",
+  "Dependencies":{
+    "liko12": ">=0.7.2",
+    "liko12.DiskOS": ">=0.0.1"
+  }
+}
