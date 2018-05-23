@@ -1,4 +1,4 @@
-local path, trigger = (...)
+local path, trigger = ...
 
 print(...)
 
